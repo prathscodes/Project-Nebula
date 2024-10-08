@@ -53,13 +53,13 @@ function takeCommand(message){
     else if(message.includes('who am I')){
         narrate(`You are a valuable user to me`);
     }
-    else if(message.includes('who is prathmesh singh')){
+    else if(message.includes('who is prathmesh')){
         narrate(`You can talk to me because of him , He is an amazing software developer who created me`);
     }
     else if(message.includes('i love you')){
         narrate(`I think you do not know Prathmesh, he has already informed me about you asking this, sorry I only love my creator, we can become friends`);
     }
-    else if(message.includes('marry me')){
+    else if(message.includes('be my friend')){
         narrate(`Marry a human please, I'm just an Artificila Intelligence aquired assistant`);
     }
     else if(message.includes('time')){
