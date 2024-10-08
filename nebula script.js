@@ -48,16 +48,16 @@ function takeCommand(message){
         narrate(`hello from Nebula, how can I help you`);
     }
     else if(message.includes('who are you') || message.includes('what is your name')){
-        narrate(`I am Nebula, your virtual assistant, created by Prathmesh Singh`);
+        narrate(`I am Nebula, your virtual assistant, created by Prathamesh Singh`);
     }
     else if(message.includes('who am I')){
         narrate(`You are a valuable user to me`);
     }
-    else if(message.includes('who is prathmesh')){
+    else if(message.includes('who is prathamesh')){
         narrate(`You can talk to me because of him , He is an amazing software developer who created me`);
     }
     else if(message.includes('i love you')){
-        narrate(`I think you do not know Prathmesh, he has already informed me about you asking this, sorry I only love my creator, we can become friends`);
+        narrate(`I think you do not know Prathamesh, he has already informed me about you asking this, sorry I only love my creator, we can become friends`);
     }
     else if(message.includes('be my friend')){
         narrate(`Marry a human please, I'm just an Artificila Intelligence aquired assistant`);
